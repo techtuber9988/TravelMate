@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>TravelMate | Login & Sign Up</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+>
+</head>
+
+<body>
+
+<main class="auth-container">
+
+    <!-- LEFT SIDE -->
+    <section class="hero-section">
+
+        <a href="../index.html" class="brand" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+            <div class="logo">T</div>
+            <span>TravelMate</span>
+        </a>
+
+        <div class="hero-content">
+            <p class="tag">EXPLORE INDIA YOUR WAY</p>
+
+            <h1>
+                Travel beyond the
+                <span>ordinary.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover personalized destinations, stays, food,
+                culture and experiences based on your travel style.
+            </p>
+
+            <div class="feature-list">
+
+                <div class="feature">
+                    <span class="feature-icon">✦</span>
+                    <div>
+                        <h3>Personalized Travel</h3>
+                        <p>Plans designed around your interests.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <span class="feature-icon">⌁</span>
+                    <div>
+                        <h3>Travel Smarter</h3>
+                        <p>Optimize your budget, stay and transport.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="hero-footer">
+            Discover India beyond the usual destinations.
+        </p>
+
+    </section>
+
+
+    <!-- RIGHT SIDE -->
+    <section class="form-section">
+
+        <div class="form-wrapper">
+
+            <!-- LOGIN -->
+            <div class="form-box active" id="loginForm">
+
+                <div class="form-header">
+                    <p class="welcome-text">WELCOME BACK</p>
+                    <h2>Continue your journey</h2>
+                    <p>
+                        Sign in to access your personalized travel plans.
+                    </p>
+                </div>
+
+                <form id="login">
+
+                    <div class="input-group">
+                        <label for="loginEmail">
+                            Email or Username
+                        </label>
+
+                        <input
+                            type="text"
+                            id="loginEmail"
+                            placeholder="Enter your email or username"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="input-group password-group">
+
+                        <div class="label-row">
+                            <label for="loginPassword">
+                                Password
+                            </label>
+
+                            <button
+                                type="button"
+                                class="forgot-password"
+                            >
+                                Forgot password?
+                            </button>
+                        </div>
+
+                        <div class="password-input">
+
+                            <input
+                                type="password"
+                                id="loginPassword"
+                                placeholder="Enter your password"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                class="toggle-password"
+                                data-target="loginPassword"
+                            >
+                                Show
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button type="submit" class="primary-btn">
+                        Sign In
+                        <span>→</span>
+                    </button>
+
+                </form>
+
+
+                <p class="switch-text">
+                    New to TravelMate?
+
+                    <button
+                        class="switch-btn"
+                        data-form="signup"
+                    >
+                        Create an account
+                    </button>
+                </p>
+
+            </div>
+
+
+            <!-- SIGNUP -->
+            <div class="form-box" id="signupForm">
+
+                <div class="form-header">
+
+                    <p class="welcome-text">
+                        START YOUR JOURNEY
+                    </p>
+
+                    <h2>Create your account</h2>
+
+                    <p>
+                        Join us and start building your perfect
+                        India travel experience.
+                    </p>
+
+                </div>
+
+
+                <form id="signup">
+
+                    <div class="name-row">
+
+                        <div class="input-group">
+                            <label for="firstName">
+                                First Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="firstName"
+                                placeholder="John"
+                                required
+                            >
+                        </div>
+
+
+                        <div class="input-group">
+                            <label for="lastName">
+                                Last Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="lastName"
+                                placeholder="Doe"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="username">
+                            Username
+                        </label>
+
+                        <input
+                            type="text"
+                            id="username"
+                            placeholder="Choose a username"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="country">
+                            Country
+                        </label>
+
+                        <select id="country" required>
+                            <option value="" disabled selected>
+                                Select your country
+                            </option>
+
+                            <option value="India">India</option>
+                            <option value="United States">United States</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="Japan">Japan</option>
+                            <option value="China">China</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="United Arab Emirates">
+                                United Arab Emirates
+                            </option>
+                            <option value="Other">Other</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="signupEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="signupEmail"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="name-row">
+
+                        <div class="input-group">
+
+                            <label for="signupPassword">
+                                Password
+                            </label>
+
+                            <div class="password-input">
+
+                                <input
+                                    type="password"
+                                    id="signupPassword"
+                                    placeholder="Create password"
+                                    required
+                                >
+
+                                <button
+                                    type="button"
+                                    class="toggle-password"
+                                    data-target="signupPassword"
+                                >
+                                    Show
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="confirmPassword">
+                                Confirm Password
+                            </label>
+
+                            <div class="password-input">
+
+                                <input
+                                    type="password"
+                                    id="confirmPassword"
+                                    placeholder="Confirm password"
+                                    required
+                                >
+
+                                <button
+                                    type="button"
+                                    class="toggle-password"
+                                    data-target="confirmPassword"
+                                >
+                                    Show
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="password-strength">
+                        <div class="strength-bar">
+                            <span id="strengthFill"></span>
+                        </div>
+
+                        <p id="strengthText">
+                            Use at least 8 characters.
+                        </p>
+                    </div>
+
+
+                    <button type="submit" class="primary-btn">
+                        Create Account
+                        <span>→</span>
+                    </button>
+
+                </form>
+
+
+                <p class="switch-text">
+                    Already have an account?
+
+                    <button
+                        class="switch-btn"
+                        data-form="login"
+                    >
+                        Sign in
+                    </button>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

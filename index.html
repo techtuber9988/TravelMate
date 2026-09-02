@@ -1,0 +1,1070 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Travel Mate | Smart India Travel Planner</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+
+  <!-- PAGE LOADER -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-logo">
+      <span>✈</span>
+      Travel Mate
+    </div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+    <div class="header-content">
+
+      <a href="#" class="logo">
+        <span class="logo-icon">✈</span>
+
+        <span class="logo-text">
+          Travel Mate
+        </span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#destinations">Destinations</a>
+        <a href="#features">Features</a>
+        <a href="#planner">Plan Trip</a>
+        <a href="Login-Signup/index.html">Login / Signup</a>
+      </nav>
+
+      <button
+        type="button"
+        class="nav-cta"
+        onclick="document.getElementById('planner').scrollIntoView({ behavior: 'smooth' })"
+      >
+        Plan Your Trip →
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero">
+    <!-- Decorative Background Images -->
+    <div class="bg-decoration deco-1"></div>
+    <div class="bg-decoration deco-2"></div>
+    <div class="bg-decoration deco-3"></div>
+
+    <div class="hero-content">
+
+      <div class="hero-badge">
+        ✨ Personalized Travel Planning
+      </div>
+
+      <h1>
+        Discover India
+        <span>Your Way.</span>
+      </h1>
+
+      <p class="hero-description">
+        Travel beyond the usual tourist spots. Travel Mate understands
+        your interests, budget, travel style and preferences to create
+        a personalized journey across India.
+      </p>
+
+      <div class="hero-buttons">
+
+        <button
+          type="button"
+          class="hero-primary-btn"
+          onclick="document.getElementById('planner').scrollIntoView({ behavior: 'smooth' })"
+        >
+          🚀 Start Planning
+        </button>
+
+        <a href="#destinations" class="hero-secondary-btn">
+          Explore Destinations
+        </a>
+
+      </div>
+
+      <div class="hero-stats">
+
+
+        <div class="stat">
+          <strong>100%</strong>
+          <span>Personalized</span>
+        </div>
+
+        <div class="stat">
+          <strong>India</strong>
+          <span>Explore Beyond Popular</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ================= HERO MAP ================= -->
+
+    <div class="hero-visual">
+
+      <div class="travel-orbit orbit-one"></div>
+      <div class="travel-orbit orbit-two"></div>
+
+      <div class="floating-card card-one">
+        📍 <span>Hidden Destinations</span>
+      </div>
+
+      <div class="floating-card card-two">
+        🍛 <span>Local Experiences</span>
+      </div>
+
+      <div class="floating-card card-three">
+        🏨 <span>Smart Stays</span>
+      </div>
+
+
+      <div class="india-map-card">
+
+        <div class="map-glow"></div>
+
+        <div class="map-top-label">
+          <span class="live-dot"></span>
+          MAP OF INDIA
+        </div>
+
+        <div class="india-map-wrapper">
+
+          <img
+            src="in.svg"
+            alt="Map of India"
+            class="india-map-image"
+          />
+
+
+        </div>
+
+
+        <div class="map-bottom-info">
+
+          <div>
+            <strong>Discover India</strong>
+            <span>Experiences curated for you</span>
+          </div>
+
+          <div class="map-compass">
+            ✦
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= TRUST STRIP ================= -->
+
+  <section class="trust-strip">
+
+    <p>
+      Built for travelers who want experiences that actually match
+      their personality.
+    </p>
+
+    <div class="trust-items">
+      <span>🌿 Nature Lovers</span>
+      <span>🏛 Culture Explorers</span>
+      <span>🍛 Food Travelers</span>
+      <span>📸 Photography Lovers</span>
+      <span>🎒 Budget Travelers</span>
+    </div>
+
+  </section>
+
+
+  <!-- ================= DESTINATIONS ================= -->
+
+  <section class="destinations-section" id="destinations">
+
+    <div class="section-heading">
+
+      <span class="section-tag">
+        EXPLORE INDIA
+      </span>
+
+      <h2>
+        Every Journey Starts With
+        <span>A Destination.</span>
+      </h2>
+
+      <p>
+        From mountains and beaches to heritage cities and hidden villages,
+        discover experiences designed around the way you love to travel.
+      </p>
+
+    </div>
+
+
+    <div class="destination-grid">
+
+
+      <!-- JAIPUR -->
+
+      <article class="destination-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=900&q=80"
+          alt="Jaipur Rajasthan"
+        />
+
+        <div class="destination-overlay"></div>
+
+        <div class="destination-content">
+
+          <span class="destination-tag">
+            HERITAGE
+          </span>
+
+          <h3>Jaipur</h3>
+
+          <p>
+            Palaces, forts and vibrant bazaars.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- KERALA -->
+
+      <article class="destination-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=80"
+          alt="Kerala Backwaters"
+        />
+
+        <div class="destination-overlay"></div>
+
+        <div class="destination-content">
+
+          <span class="destination-tag">
+            NATURE
+          </span>
+
+          <h3>Kerala</h3>
+
+          <p>
+            Backwaters, beaches and peaceful escapes.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- LADAKH -->
+
+      <article class="destination-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=900&q=80"
+          alt="Ladakh Mountains"
+        />
+
+        <div class="destination-overlay"></div>
+
+        <div class="destination-content">
+
+          <span class="destination-tag">
+            ADVENTURE
+          </span>
+
+          <h3>Ladakh</h3>
+
+          <p>
+            Mountains, roads and unforgettable landscapes.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- GOA -->
+
+      <article class="destination-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=80"
+          alt="Goa Beach"
+        />
+
+        <div class="destination-overlay"></div>
+
+        <div class="destination-content">
+
+          <span class="destination-tag">
+            BEACH
+          </span>
+
+          <h3>Goa</h3>
+
+          <p>
+            Beaches, food and vibrant experiences.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- MEGHALAYA -->
+
+      <article class="destination-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=80"
+          alt="Meghalaya Nature"
+        />
+
+        <div class="destination-overlay"></div>
+
+        <div class="destination-content">
+
+          <span class="destination-tag">
+            HIDDEN GEMS
+          </span>
+
+          <h3>Meghalaya</h3>
+
+          <p>
+            Waterfalls, caves and living root bridges.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- VARANASI -->
+
+      <article class="destination-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=900&q=80"
+          alt="Varanasi Ghats"
+        />
+
+        <div class="destination-overlay"></div>
+
+        <div class="destination-content">
+
+          <span class="destination-tag">
+            SPIRITUAL
+          </span>
+
+          <h3>Varanasi</h3>
+
+          <p>
+            Ancient culture along the sacred Ganges.
+          </p>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FEATURES ================= -->
+
+  <section class="features-section" id="features">
+
+    <div class="features-content">
+
+      <span class="section-tag">
+        TRAVEL DIFFERENTLY
+      </span>
+
+      <h2>
+        Not Just Places.
+        <br />
+        <span>Experiences Made For You.</span>
+      </h2>
+
+      <p>
+        Every traveler is different. Whether you love waterfalls,
+        peaceful mountains, local food, heritage, adventure or scenic
+        photography, your journey should reflect what you truly enjoy.
+      </p>
+
+
+      <div class="feature-list">
+
+        <div class="feature-item">
+
+          <div class="feature-check">✓</div>
+
+          <div>
+
+            <h4>Interest-Based Discovery</h4>
+
+            <p>
+              Find destinations matching nature, food, heritage,
+              adventure or photography.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="feature-item">
+
+          <div class="feature-check">✓</div>
+
+          <div>
+
+            <h4>Budget-Aware Planning</h4>
+
+            <p>
+              Get recommendations that actually fit your available budget.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="feature-item">
+
+          <div class="feature-check">✓</div>
+
+          <div>
+
+            <h4>Smart Route Optimization</h4>
+
+            <p>
+              Reduce unnecessary travel and make the most of every day.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="features-visual">
+
+      <div class="sample-itinerary-card">
+
+        <div class="sample-header">
+
+          <div>
+
+            <span>YOUR JOURNEY</span>
+
+            <h3>Explore Meghalaya</h3>
+
+          </div>
+
+          <div class="sample-days">
+            4 Days
+          </div>
+
+        </div>
+
+
+        <div class="sample-day">
+
+          <div class="sample-time">
+            DAY 1
+          </div>
+
+          <div>
+
+            <strong>Shillong → Cherrapunji</strong>
+
+            <p>Nature & Scenic Exploration</p>
+
+          </div>
+
+        </div>
+
+
+        <div class="sample-day">
+
+          <div class="sample-time">
+            DAY 2
+          </div>
+
+          <div>
+
+            <strong>Waterfalls & Living Roots</strong>
+
+            <p>Personalized for Nature Lovers</p>
+
+          </div>
+
+        </div>
+
+
+        <div class="sample-day">
+
+          <div class="sample-time">
+            DAY 3
+          </div>
+
+          <div>
+
+            <strong>Hidden Local Experiences</strong>
+
+            <p>Beyond Typical Tourist Spots</p>
+
+          </div>
+
+        </div>
+
+
+        <div class="ai-status">
+
+          <span class="status-dot"></span>
+
+          Your Journey Is Being Personalized
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= TRIP PLANNER ================= -->
+
+  <main class="main-container" id="planner">
+
+
+    <section class="planner-intro">
+
+      <span class="section-tag">
+        START YOUR JOURNEY
+      </span>
+
+      <h2>
+        Tell Us About Your
+        <span>Perfect Trip.</span>
+      </h2>
+
+      <p>
+        Give us a few details. We will handle the research,
+        recommendations and itinerary planning.
+      </p>
+
+    </section>
+
+
+    <!-- ================= FORM ================= -->
+
+    <section class="form-card" id="formSection">
+
+      <div class="form-card-top">
+
+        <div>
+
+          <h2 class="form-title">
+            Plan Your Perfect Trip
+          </h2>
+
+          <p class="form-subtitle">
+            Your preferences will help us create a personalized
+            itinerary designed around your travel style.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <form id="tripForm" novalidate>
+
+
+        <div class="form-grid">
+
+
+          <div class="form-group full-width">
+
+            <label for="destination">
+              📍 Destination
+            </label>
+
+            <input
+              type="text"
+              id="destination"
+              placeholder="e.g. Jaipur, Udaipur, Indore…"
+              required
+            />
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="check_in">
+              📅 Check-in Date
+            </label>
+
+            <input
+              type="date"
+              id="check_in"
+              required
+            />
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="check_out">
+              📅 Check-out Date
+            </label>
+
+            <input
+              type="date"
+              id="check_out"
+              required
+            />
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="total_budget">
+              💰 Total Budget (₹)
+            </label>
+
+            <input
+              type="number"
+              id="total_budget"
+              placeholder="e.g. 25000"
+              min="1000"
+              required
+            />
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="hotel_budget">
+              🏨 Hotel Budget / Night (₹)
+            </label>
+
+            <input
+              type="number"
+              id="hotel_budget"
+              placeholder="e.g. 2500"
+              min="500"
+              required
+            />
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="adults">
+              👥 Number of Adults
+            </label>
+
+            <input
+              type="number"
+              id="adults"
+              placeholder="e.g. 2"
+              min="1"
+              max="10"
+              required
+            />
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="vibe">
+              🎯 Traveler Vibe
+            </label>
+
+            <select id="vibe" required>
+
+              <option value="" disabled selected>
+                Select your vibe…
+              </option>
+
+              <option value="Heritage & Culture">
+                🏛 Heritage & Culture
+              </option>
+
+              <option value="Street Food & Bazaars">
+                🍛 Street Food & Bazaars
+              </option>
+
+              <option value="Nature & Adventure">
+                🌿 Nature & Adventure
+              </option>
+
+              <option value="Spiritual & Temples">
+                🛕 Spiritual & Temples
+              </option>
+
+              <option value="Photography & Scenic">
+                📸 Photography & Scenic
+              </option>
+
+              <option value="Luxury & Relaxation">
+                💎 Luxury & Relaxation
+              </option>
+
+              <option value="Family & Kids">
+                👨‍👩‍👧 Family & Kids
+              </option>
+
+              <option value="Backpacker & Budget">
+                🎒 Backpacker & Budget
+              </option>
+
+            </select>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="form-info">
+
+          <span>
+            🔒 Your preferences are used only to personalize your trip.
+          </span>
+
+        </div>
+
+
+        <button
+          type="submit"
+          class="btn-generate"
+          id="generateBtn"
+        >
+
+          <span class="btn-icon">
+            🚀
+          </span>
+
+          <span class="btn-text">
+            Generate My Personalised Itinerary
+          </span>
+
+          <span class="btn-arrow">
+            →
+          </span>
+
+        </button>
+
+
+      </form>
+
+    </section>
+
+
+    <!-- ================= LOADING ================= -->
+
+    <section
+      class="loading-section hidden"
+      id="loadingSection"
+    >
+
+      <div class="loading-card">
+
+
+        <div class="loading-top">
+
+          <div class="spinner-ring"></div>
+
+          <div>
+
+            <span class="processing-tag">
+              PLANNING YOUR JOURNEY
+            </span>
+
+            <h3
+              class="loading-title"
+              id="loadingTitle"
+              aria-live="polite"
+            >
+              Preparing Your Travel Plan…
+            </h3>
+
+          </div>
+
+        </div>
+
+
+        <div class="agent-pipeline">
+
+
+          <div class="agent-step" id="step1">
+
+            <div class="agent-dot"></div>
+
+            <span>
+              🏨 Finding Best Hotel
+            </span>
+
+          </div>
+
+
+          <div class="agent-step" id="step2">
+
+            <div class="agent-dot"></div>
+
+            <span>
+              🗺 Curating Destinations
+            </span>
+
+          </div>
+
+
+          <div class="agent-step" id="step3">
+
+            <div class="agent-dot"></div>
+
+            <span>
+              🕐 Checking Timings & Availability
+            </span>
+
+          </div>
+
+
+          <div class="agent-step" id="step4">
+
+            <div class="agent-dot"></div>
+
+            <span>
+              🚗 Calculating Routes & Costs
+            </span>
+
+          </div>
+
+
+          <div class="agent-step" id="step5">
+
+            <div class="agent-dot"></div>
+
+            <span>
+              📋 Assembling Your Itinerary
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+        <p class="loading-note">
+
+          We're researching your trip and organizing
+          the best possible travel experience.
+
+        </p>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= RESULTS ================= -->
+
+    <section
+      class="results-section hidden"
+      id="resultsSection"
+    >
+
+      <div
+        class="trip-banner"
+        id="tripBanner"
+      ></div>
+
+
+      <div
+        class="hotel-card"
+        id="hotelCard"
+      ></div>
+
+
+      <div class="day-tabs-wrapper">
+
+        <div
+          class="day-tabs"
+          id="dayTabs"
+          role="tablist"
+        ></div>
+
+
+        <div
+          class="day-panels"
+          id="dayPanels"
+        ></div>
+
+      </div>
+
+
+      <div class="reset-wrapper">
+
+        <button
+          class="btn-reset"
+          id="resetBtn"
+          type="button"
+        >
+
+          ← Plan Another Trip
+
+        </button>
+
+      </div>
+
+
+    </section>
+
+
+    <!-- ================= ERROR ================= -->
+
+    <div
+      class="error-toast hidden"
+      id="errorToast"
+      aria-live="polite"
+    >
+
+      <span class="error-icon">
+        ⚠️
+      </span>
+
+
+      <span id="errorMsg">
+
+        Something went wrong. Please try again.
+
+      </span>
+
+
+      <button
+        class="error-close"
+        id="errorClose"
+        type="button"
+      >
+        ✕
+      </button>
+
+    </div>
+
+
+  </main>
+
+
+  <!-- ================= CTA ================= -->
+
+  <section class="bottom-cta">
+
+    <div>
+
+      <span class="section-tag">
+        READY TO EXPLORE?
+      </span>
+
+      <h2>
+        India Has More To Offer
+        <br />
+
+        <span>Than Just The Famous Places.</span>
+      </h2>
+
+    </div>
+
+
+    <button
+      type="button"
+      onclick="document.getElementById('planner').scrollIntoView({ behavior: 'smooth' })"
+    >
+
+      Start Your Journey 🚀
+
+    </button>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="site-footer">
+
+    <div class="footer-logo">
+
+      ✈
+
+      <strong>
+        Travel Mate
+      </strong>
+
+    </div>
+
+
+    <p>
+
+      Built for
+      <strong>Smart India Hackathon</strong>
+
+      · Personalized Travel Planning
+
+    </p>
+
+
+    <p class="footer-small">
+
+      Discover • Experience • Explore
+
+    </p>
+
+  </footer>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
